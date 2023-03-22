@@ -1,8 +1,8 @@
-def char_and_string(S, i):
+def ctos(S, i):
     return S[i-1]
 
 if __name__ == "__main__":
     S = input()
     i = int(input())
     
-    print(char_and_string(S=S, i=i))
+    print(ctos(S = S, i = i))
